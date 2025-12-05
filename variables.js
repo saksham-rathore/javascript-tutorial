@@ -14,3 +14,4 @@ _fullname = "sam rathore";
 // console = "sam rathore";
 // console.log(console);
 // console is a reserved word in js and cannot be used as a variable name.
+// visit a list of reserved words in google 
