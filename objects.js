@@ -5,11 +5,21 @@
 
 // function_name(arguments1, arguments2)
 
+
+/*
 function add(a,b) {
     let sum = a + b;
     return sum;
 }
-
 let result = add(10,49)
 console.log(result)
  
+*/
+
+function calculatediscount(price, discountprice) {
+    let discount = price * (discountprice / 100);
+    let final_price = price - discount;
+    return final_price;
+}
+
+console.log(calculatediscount(1000, 20));
