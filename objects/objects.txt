@@ -1,0 +1,5 @@
+key is normal so you can use . dot  
+key is spaces so you can use []  
+key is number so you can use []  
+key is dynamic so you can use []  
+key is special char so you can use []  
