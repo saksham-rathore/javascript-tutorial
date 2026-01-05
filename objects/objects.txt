@@ -3,3 +3,11 @@ key is spaces so you can use []
 key is number so you can use []  
 key is dynamic so you can use []  
 key is special char so you can use []  
+
+
+
+map() is a JavaScript array method, not directly an object method.
+It is used to loop through an array and return a new array after modifying each element.
+
+👉 Important:
+You cannot directly use map() on an object, but you can use it with object data. 
