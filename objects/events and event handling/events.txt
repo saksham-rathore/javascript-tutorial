@@ -1,0 +1,6 @@
+screen per kuch bhi ho us waqt aapko reaction dena ho to us waqt aapko event handle karna ana chaiye
+
+
+event matlab hota hai koi action hua 
+
+event listioner ka matlab hai aapne kisi action ka reaction diya 
