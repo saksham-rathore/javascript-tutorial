@@ -1,19 +1,18 @@
-let box = document.querySelector("#box");
+let conut = 0;
+let seconds = 10;
+let progress = document.querySelector(".progress-bar");
+let percentText = document.querySelector("#percentText");
 
-window.addEventListener("mousemove", function (dets) {
-    box.style.top = dets.clientY + "px";
-    box.style.left = dets.clientX + "px";
-});
-
-
-
-
-// make a counter to event listener method
-let count = 10;
-
-let interval = setInterval(function(){
-    if (count >= 0) {
-        console.log(count);
-        count--;
-    } else clearInterval(interval);
-}, 1000);
+let intv = setInterval(
+    function () {
+        if (conut <= 99) {
+            conut++;
+            progress.style.width = `${conut}%`;
+            percentText.textContent = `${conut}%`;
+        } else {
+            document.querySelector("h2").textContent = "Downloaded.";
+            clearInterval(intv);
+        }
+    },
+    (seconds * 1000) / 100
+);
