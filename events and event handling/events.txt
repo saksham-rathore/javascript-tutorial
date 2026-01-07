@@ -1,0 +1,13 @@
+screen per kuch bhi ho us waqt aapko reaction dena ho to us waqt aapko event handle karna ana chaiye
+
+
+event matlab hota hai koi action hua 
+
+event listioner ka matlab hai aapne kisi action ka reaction diya 
+
+
+event bubbling
+jis per event aayega agar usper listener nahi hua to hamara event listner nahi 
+hua to hamara event uske parent per listener dhundega aur aisa krtr krte 
+uper ki taraf move karega 
+apne parent per event listener check karega 
